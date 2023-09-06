@@ -16,12 +16,17 @@
 body {
     display: flex;
     justify-content: center;
+    margin:0;
+}
+
+main {
+    padding: 0 30px;
 }
 
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -56,7 +61,8 @@ img {
 /****** Header ***********/
 .head {
     display: flex;
-    justify-content: space-between;        
+    justify-content: space-between; 
+    padding: 0 30px;       
 }
 
 .logo {
@@ -201,7 +207,6 @@ input {
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -210,6 +215,7 @@ input {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    background-color: var(--main-bg-color);
 }
 
 article {
@@ -273,6 +279,7 @@ article {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -390,8 +397,12 @@ footer {
     flex-direction: column;
     gap: 15px;
     flex: 1 0 0;
-   
-    
+}
+.mobile-only {
+    display: none;
+}
+.mobile-hidden {
+    display: block;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

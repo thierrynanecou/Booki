@@ -1,0 +1,104 @@
+/* Small devices (phones, less than 768px) */
+    :root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+@media screen and (max-width: 768px)  
+{
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+       .head {
+            margin: 0 auto;
+            display: block
+        }
+        .head .logo{
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .head .menu {
+            justify-content: center;
+            gap: 150px;
+            margin-bottom: 20px;
+        } 
+        .Headline {
+            text-align: justify;
+        }
+        .SearchBar {
+            margin-top: 35px;
+        }
+        
+        .btn-search .fa-magnifying-glass {
+            display:block;
+            color: white;
+            background-color: var(--main-color);
+            text-align: center;
+        }
+        .btn-search p{
+            display:none;
+            
+        }
+        .FilterBar {
+            display:grid;
+        }
+        .Filtrers {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 50px;
+        }
+        .hebergements {
+            margin-top: 20px;
+            
+        }
+       
+        .hebergements-cards {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        .populaires-cards {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .populaires-cards .card {
+            width: 100%;
+            height: 146px;
+            box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+        }
+        .populaires-cards img {
+            width: 111px;
+            height: 146px;
+        }
+        .Activités-cards {
+            display:grid;
+        }
+        .Activités-title {
+            margin-bottom: 35px;
+        }
+        .Activités-cards img {
+            width: 100%;
+            max-height: 200px;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+@media screen and (max-width: 768px) and (min-width: 497px)  {
+    .hebergements-cards {
+    grid-template-columns: 1fr 1fr
+    }
+    }
+    
+@media screen and (max-width: 497px) {
+    .hebergements-cards {
+    grid-template-columns: 1fr
+    }
+    }
+    

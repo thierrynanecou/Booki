@@ -75,14 +75,23 @@
             margin-bottom: 50px;
         }
         .hebergements {
-            margin-top: 20px;
+            display: flex;
+            padding: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+            align-self: stretch;
             background-color: white;
         }
        
         .hebergements-cards {
             display: flex;
+            padding-bottom: 0px;
             flex-direction: column;
+            gap: 15px;
+            align-self: stretch;
             background-color: white;
+            box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
         }
         .populaires-cards {
             flex-direction: column;
@@ -105,8 +114,14 @@
             margin-bottom: 35px;
         }
         .Activités-cards img {
-            width: 100%;
-            max-height: 200px;
+            height: 141px;
+            align-self: stretch;
+            border-radius: 20px 20px 0px 0px;
+            background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        }
+        .Activités-cards .card-title{
+            font-size: 16px;
+            font-weight: 700;
         }
         footer {
             display: flex;

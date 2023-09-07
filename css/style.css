@@ -15,8 +15,11 @@
 
 body {
     display: flex;
-    justify-content: center;
-    margin:0;
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    align-self: stretch;
 }
 
 main {
@@ -269,6 +272,7 @@ article {
 .hebergements-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
+    font-weight: 700;
 }
 
 .hebergements-cards .card-subtitle {

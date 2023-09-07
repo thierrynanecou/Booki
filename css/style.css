@@ -125,11 +125,18 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 input {
     border: 1px solid var(--main-bg-color);
     width: 147px;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .btn-search {
@@ -197,7 +204,9 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-
+  }
+.TitleFiltre {
+    font-weight: bold;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -378,6 +387,7 @@ a{
 footer {
     display: flex;
     justify-content: space-between;
+    
     height: auto;
     background-color: #F2F2F2;
     margin-top: 35px;
@@ -386,17 +396,18 @@ footer {
 .Title-Footer {
     font-size: 18px;
     margin-bottom: auto;
+    color: #000;
+    font-weight: 700;
 }
 
 .colonne { 
-    width: 446%;
-    height: 163%;
     display: flex;
     padding: 20px;
-    justify-content: space-between;
     flex-direction: column;
+    align-items: flex-start;
     gap: 15px;
     flex: 1 0 0;
+    align-self: stretch;
 }
 .mobile-only {
     display: none;

@@ -4,8 +4,8 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
-@media screen and (max-width: 768px)  
-{
+@media screen and (max-width: 768px){ 
+
 
     .hebergements-and-populaires {
         /*flex-direction: column-reverse;*/
@@ -50,6 +50,7 @@
         .Headline {
             text-align: justify;
         }
+        
 
         .SearchBar {
             margin-top: 35px;
@@ -109,7 +110,11 @@
         }
         footer {
             display: flex;
+            padding: 30px;
             flex-direction: column;
+            align-items: flex-start;
+            gap: 50px;
+            align-self: stretch;
         }
         .mobile-only {
             display: block;

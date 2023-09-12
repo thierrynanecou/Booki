@@ -143,8 +143,12 @@ input {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding: 0 20px;
 }
-
+.SearchBar input::placeholder{
+    color:black;
+    
+}
 .btn-search {
     background-color: var(--main-color);
     color: var(--main-bg-color);
@@ -184,11 +188,11 @@ input {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border: 2px solid grey;
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #d9d9d9;
+    border: 2px solid rgba(217, 217, 217, 1);
+    
     cursor: pointer;
 }
 .FiltreItem:hover {

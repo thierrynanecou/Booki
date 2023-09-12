@@ -8,7 +8,7 @@
 
 
     .hebergements-and-populaires {
-        /*flex-direction: column-reverse;*/
+        gap: 35px;
     }
        .head {
             margin: 0 auto;
@@ -20,6 +20,10 @@
             display: block;
             padding-top: 30px;
             padding-bottom: 30px;
+        }
+        .Headline {
+            padding-right: 35px;
+            padding-left: 15px;
         }
         
         .head .menu {
@@ -57,6 +61,16 @@
             margin-top: 35px;
         }
         
+        .SearchBar input{
+            color:black;
+            padding:0 20px;
+        }
+        .btn-search {
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+            width: 49px;
+            padding: 15px 6px;
+        }
         .btn-search .fa-magnifying-glass {
             display:block;
             color: white;
@@ -64,9 +78,9 @@
             text-align: center;
         }
         .btn-search p{
-            display:none;
-            
+            display:none; 
         }
+
         .FilterBar {
             display:grid;
         }
@@ -76,6 +90,14 @@
             margin-bottom: 50px;
             margin-left: 0;
             gap: 20px;
+        }
+        .FiltreItem {
+            justify-content: start;
+            width: 160px;
+            padding-left: 20px;
+            }
+            .InfoBar{
+            padding-top: 35px;
         }
         .hebergements {
             display: flex;
@@ -114,15 +136,18 @@
             display: flex;            
             flex-direction: column;
             align-items: flex-start;
+            justify-content: center;
             gap: 30px;
-            align-self: stretch;   
+            margin:auto;
+            width: 90%;
+               
         }
         .Activités-cards{
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 15px;
-            align-self: stretch;
+            
         }
         .Activités-cards img{
             width: 100%;
@@ -135,14 +160,12 @@
             font-size: 16px;
         }
 
- 
         footer {
             display: flex;
             padding: 30px;
             flex-direction: column;
-            align-items: flex-start;
-            gap: 50px;
-            align-self: stretch;
+            gap: 20px;
+            
         }
         .mobile-only {
             display: block;

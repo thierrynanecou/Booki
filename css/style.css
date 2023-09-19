@@ -420,12 +420,7 @@ footer {
     flex: 1 0 0;
     align-self: stretch;
 }
-.mobile-only {
-    display: none;
-}
-.mobile-hidden {
-    display: block;
-}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

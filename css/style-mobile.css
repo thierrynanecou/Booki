@@ -183,4 +183,12 @@
     grid-template-columns: 1fr
     }
     }
-    
+@media screen and (max-width: 497px)  {
+    .Filtrers {
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .InfoBar{
+        padding-top: 200px;
+    }
+}
